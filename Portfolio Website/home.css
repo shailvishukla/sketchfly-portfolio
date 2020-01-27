@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.black {
+  background-color: #000;
+}
+
+.pd-1 {
+  padding-right: 80px;
+}
+
+.pd-3 {
+  padding-bottom: 40px;
+}
+
+.mg-1 {
+  margin-top: 20px;
+}
+
+.mg-2 {
+  margin-right: 40px;
+}
+
+.mg-3 {
+  margin-bottom: 20px;
+}
+
+.whole {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./home_doodle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  background-color: #000;
+  padding-left: 50px;
+  overflow: auto;
+}
+
+.side-plz {
+  display: inline-block;
+  /* padding: 20px 0px; */
+  vertical-align: middle;
+}
+
+.social {
+  display: inline-block;
+  width: calc(100% - 250px);
+  text-align: right;
+  /* padding: 20px 0px; */
+}
+
+
+.menu {
+  padding-left: 60px;
+}
+
+.icons li {
+  display: inline-block;
+}
+
+ul li {
+  margin-left: 35px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+.icons li {
+  padding-left: 15px;
+}
+
+.icons li:hover {
+  transition: ease-in-out 0.2s;
+  font-size: 40px;
+}
+
+/* ------------------- */
+/* Flexbox Pizza Menu */
+/* ------------------- */
+
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #000;
+  background-color: rgb(240, 233, 233);
+}
+
+.site-menu {
+  width: 100%;
+}
+
+.site-menu h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.box2 {
+  flex-basis: 33.33%;
+  color: #fff;
+}
+
+.shit {
+  background-image: url('./red.png');
+}
+
+.box2 p {
+  font-size: 16px;
+  margin: 0px 20px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.box2 h3 {
+  padding-top: 30px;
+}
+
+.box2 h3,
+.box2 p {
+  text-align: center;
+}
+
+.box2 img {
+  display: block;
+  width: 350px;
+  height: 450px;
+  margin: 20px auto;
+}
+
+
+/* ------------------- */
+/* Flexbox Pizza Menu */
+/* ------------------- */
+
+
+.tagline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tagline h1 {
+  margin-bottom: 20px;
+}
+
+.main-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 40px;
+  border: #fff 1px solid;
+  border-radius: 3px;
+}
+
+.tagline a:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.new1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #000;
+  margin: 0px 12px;
+  margin-bottom: 12px;
+}
+
+.on {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('./red.png');
+}
+
+
+/* ------------------- */
+/* Flexbox Profile */
+/* ------------------- */
+
+#About {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #000;
+  text-align: center;
+  background-color: #999393;
+}
+
+.profile-pic img,
+.profile-desc img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+}
+
+.profile-pic,.profile-desc {
+  flex-basis: 50%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.Name {
+  text-align: center;
+  font-size: 45px;
+  color: #000;
+  font-weight: 400;
+}
+
+.Gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+ /* Footer   */
