@@ -3,4 +3,4 @@
 
 
 Demo: 
-https://shailvishukla.github.io/SketchFly-Portfolio/Portfolio%20Website/home.html
+https://shailvishukla.github.io/sketchfly-portfolio/Portfolio%20Website/home.html
